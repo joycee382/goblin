@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+.wrapper{
+    background:linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.12%) ;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 40px;
+}
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+header  nav ul {
+    display: flex;
+   
+}
+
+
+ul a{
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease-in-out;
+}
+
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 5% 10%;
+    color: #fff;
+}
+.hero h5{
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.hero h4{
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero h1{
+    font-family: 'Lemonada';
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 0 45px;
+}
+
+.hero p{
+    max-width: 400px;
+    font-size: 0.85em;
+    line-height: 2;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.but{
+    padding: 7px 12px;
+    border-radius: 30px;
+    background-color: #4d9559;
+    color: #fff;
+    border: none;
+    
+}
+
+.play{
+    margin-left: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    padding: 0 5%;
+    transform: translateY(-50%);
+}
+.icon i {
+    display: block;
+    margin: 30px 0;
+    font-size: 1.3em;
+    color: white;
+    transition: all .50s ease;
+}
+
+.icon i:hover{
+    color: #4d9559;
+    transform: translatey(10px);
+}
